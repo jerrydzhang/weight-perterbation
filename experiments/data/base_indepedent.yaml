@@ -1,0 +1,24 @@
+gaussian_params:
+  class: jernerics.generate.parameters.GaussianParametersGenerator
+  params:
+    mean: 0.0
+    std: 1.0
+  deps: []
+sparse_params:
+  class: jernerics.generate.parameters.SparseParametersTransformer
+  params:
+    sparsity: 0.9
+  deps:
+    - gaussian_params
+gaussian_data:
+  class: jernerics.generate.data.GaussianDataGenerator
+  params:
+    mean: 0.0
+    std: 1.0
+  deps: []
+linear_labels:
+  class: jernerics.generate.labels.LinearLabelComputer
+  params: {}
+  deps:
+    - gaussian_data
+    - sparse_params

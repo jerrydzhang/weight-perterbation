@@ -1,0 +1,14 @@
+name: example
+description: example
+shared:
+  module: experiments.synthetic
+  random_state: 42
+  parameters:
+    n_samples: 256
+    n_features: 100
+    graph_file: base_indepedent.yaml
+experiments:
+  - parameters: 
+      alpha: 0.5
+      eps: 1e-7
+      std: 0.01
