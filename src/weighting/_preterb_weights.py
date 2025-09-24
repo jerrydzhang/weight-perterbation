@@ -19,6 +19,7 @@ def reciprocal(theta: np.ndarray, eps: float = 1e-6) -> np.ndarray:
 def preterb(
     weights: np.ndarray,
     std: float = 0.1,
+    scale: float = 0.1,
     random_state: int | None = None,
 ) -> np.ndarray:
     """
@@ -35,6 +36,11 @@ def preterb(
     """
     rng = np.random.default_rng(random_state)
     perturbation = rng.normal(loc=0.0, scale=std, size=weights.shape)
-    weights = weights + perturbation
+    non_zero_mask = weights > 0.0
+    # rescale perturbation to be a fraction of the weight
+    perturbation[non_zero_mask] *= weights[non_zero_mask] * scale
+
+    # only add perturbation to non-zero weights
+    weights[non_zero_mask] += perturbation[non_zero_mask]
 
     return weights

@@ -1,0 +1,8 @@
+name: hbr
+description: hbr equations
+shared:
+  module: experiments.ode
+  random_state: 42
+  parameters:
+    data_file: hydrogen_bromine_ode.csv
+    equation: hydrogen_bromine

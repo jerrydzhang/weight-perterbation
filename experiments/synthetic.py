@@ -52,7 +52,7 @@ class WeightedLassoExperiment(Experiment):
         weights = weighting.reciprocal(theta, eps=float(config["eps"]))
         weights = weighting.preterb(
             weights,
-            std=config["std"],
+            std=config["preterb_weight_std"],
             random_state=self.random_state,
         )
         weights = weights.reshape(-1, 1)

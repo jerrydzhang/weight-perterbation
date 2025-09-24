@@ -1,0 +1,509 @@
+description: Robertson's equations
+experiments:
+- parameters:
+    model_alpha: 76.82469570004498
+    weight_eps: 0.00031054396710750257
+    weight_factor: 0.3324825449367919
+    weight_std: 0.02100760023732124
+- parameters:
+    model_alpha: 0.6109577033098423
+    weight_eps: 0.0006112594484533637
+    weight_factor: 0.05127295075432353
+    weight_std: 0.004148330027427566
+- parameters:
+    model_alpha: 0.012851691185724582
+    weight_eps: 9.984583079613978e-07
+    weight_factor: 0.1280036789329242
+    weight_std: 0.805498495108219
+- parameters:
+    model_alpha: 1611.2858947244597
+    weight_eps: 1.7023330954385912e-06
+    weight_factor: 0.4551422821297849
+    weight_std: 0.03667868133481775
+- parameters:
+    model_alpha: 11853.885025380314
+    weight_eps: 1.6545433506969693e-05
+    weight_factor: 0.36975572173023113
+    weight_std: 0.0045604357226507
+- parameters:
+    model_alpha: 9.205613880328027e-05
+    weight_eps: 7.18233985085307e-05
+    weight_factor: 0.13642549421756564
+    weight_std: 0.0012967988763415254
+- parameters:
+    model_alpha: 2.5033459356010656e-05
+    weight_eps: 0.04252908206229908
+    weight_factor: 0.4655373985721872
+    weight_std: 0.43926813130256126
+- parameters:
+    model_alpha: 30315.145687163833
+    weight_eps: 0.0306417507037503
+    weight_factor: 0.2808943727837442
+    weight_std: 0.004750488009623598
+- parameters:
+    model_alpha: 515606.72593244066
+    weight_eps: 0.000556659464209724
+    weight_factor: 0.09827354118561951
+    weight_std: 0.007780134219493797
+- parameters:
+    model_alpha: 265117.1214117858
+    weight_eps: 0.0015152206669446766
+    weight_factor: 0.46792662878421737
+    weight_std: 0.0013234444165724358
+- parameters:
+    model_alpha: 10.71768835153181
+    weight_eps: 8.956104897017276e-06
+    weight_factor: 0.398585594501672
+    weight_std: 0.14963923219550054
+- parameters:
+    model_alpha: 0.0050155145502966654
+    weight_eps: 0.011962387750499617
+    weight_factor: 0.4380614560835091
+    weight_std: 0.8584996379330018
+- parameters:
+    model_alpha: 798.4583170949935
+    weight_eps: 2.212770340213526e-05
+    weight_factor: 0.47261347368400686
+    weight_std: 0.0010656888840129889
+- parameters:
+    model_alpha: 133054.36323799516
+    weight_eps: 1.8297592016469673e-07
+    weight_factor: 0.2504813266167909
+    weight_std: 0.01176481669843717
+- parameters:
+    model_alpha: 4.1309972229969655e-05
+    weight_eps: 0.00046285278397534935
+    weight_factor: 0.22120899974897817
+    weight_std: 0.005826771511129075
+- parameters:
+    model_alpha: 8024.17866238033
+    weight_eps: 0.00513160219525874
+    weight_factor: 0.3908996600250879
+    weight_std: 0.001502652109602046
+- parameters:
+    model_alpha: 0.38252684792644914
+    weight_eps: 2.132109997169995e-06
+    weight_factor: 0.045878280929632836
+    weight_std: 0.03467152104104701
+- parameters:
+    model_alpha: 385.3479094557949
+    weight_eps: 2.084023734852242e-07
+    weight_factor: 0.11844310637312501
+    weight_std: 0.1704878944290933
+- parameters:
+    model_alpha: 0.0008948145155986898
+    weight_eps: 2.0151360824302167e-06
+    weight_factor: 0.09435889013674356
+    weight_std: 0.012997150662299478
+- parameters:
+    model_alpha: 184049.52285798438
+    weight_eps: 0.09261716730223298
+    weight_factor: 0.0394130475810437
+    weight_std: 0.0016072693030730494
+- parameters:
+    model_alpha: 2444.3061950173737
+    weight_eps: 8.05888747553125e-05
+    weight_factor: 0.24193909365935018
+    weight_std: 0.7192812800682509
+- parameters:
+    model_alpha: 2.9718272219207004e-05
+    weight_eps: 1.375609680046045e-06
+    weight_factor: 0.4924441487506051
+    weight_std: 0.0025000219790672785
+- parameters:
+    model_alpha: 0.020662449295926227
+    weight_eps: 5.8724838750430155e-05
+    weight_factor: 0.3118657006664007
+    weight_std: 0.003980961872930035
+- parameters:
+    model_alpha: 7.958202477060251
+    weight_eps: 2.1637655126168222e-05
+    weight_factor: 0.08693962752432918
+    weight_std: 0.19467596157331185
+- parameters:
+    model_alpha: 12805.29869779625
+    weight_eps: 0.014615180926222163
+    weight_factor: 0.3205525759786258
+    weight_std: 0.527878533538855
+- parameters:
+    model_alpha: 0.8721007562795177
+    weight_eps: 7.103234134945441e-06
+    weight_factor: 0.34624659107907
+    weight_std: 0.0019632888421374835
+- parameters:
+    model_alpha: 4.646401073957934e-06
+    weight_eps: 0.00037554028040322234
+    weight_factor: 0.2614473478865819
+    weight_std: 0.35173635157260774
+- parameters:
+    model_alpha: 951583.7389593807
+    weight_eps: 0.006781210337940162
+    weight_factor: 0.30249333659387917
+    weight_std: 0.0017922498598436272
+- parameters:
+    model_alpha: 2.9872040055709017
+    weight_eps: 0.00013900141606018607
+    weight_factor: 0.2868445774582465
+    weight_std: 0.00930186898982129
+- parameters:
+    model_alpha: 0.00023562905572213841
+    weight_eps: 1.643718677016142e-07
+    weight_factor: 0.06265160775505951
+    weight_std: 0.04956180395356806
+- parameters:
+    model_alpha: 211.12147971036177
+    weight_eps: 0.04602576227496697
+    weight_factor: 0.30623371064273885
+    weight_std: 0.0029358692902340835
+- parameters:
+    model_alpha: 6.45340557806794e-05
+    weight_eps: 2.9794231791845195e-06
+    weight_factor: 0.035516399788415386
+    weight_std: 0.0017201218660684893
+- parameters:
+    model_alpha: 37.709809436324576
+    weight_eps: 5.367585721736581e-06
+    weight_factor: 0.360176327586637
+    weight_std: 0.08430085905359096
+- parameters:
+    model_alpha: 0.00029830992818651996
+    weight_eps: 0.0019801151029241845
+    weight_factor: 0.18941026645951228
+    weight_std: 0.09009931510732368
+- parameters:
+    model_alpha: 68754.44256403414
+    weight_eps: 0.01761376012966075
+    weight_factor: 0.20847488447200924
+    weight_std: 0.027416303074971955
+- parameters:
+    model_alpha: 15921.214957278647
+    weight_eps: 4.652793086716118e-06
+    weight_factor: 0.14020510245402365
+    weight_std: 0.005288980202383091
+- parameters:
+    model_alpha: 320.35517867163503
+    weight_eps: 0.00024667955121398844
+    weight_factor: 0.016614828606495758
+    weight_std: 0.0023084734682273012
+- parameters:
+    model_alpha: 0.009753140747245415
+    weight_eps: 0.03641417055347924
+    weight_factor: 0.17808930765205266
+    weight_std: 0.015472745563582586
+- parameters:
+    model_alpha: 0.1219673181201878
+    weight_eps: 5.681052738621986e-05
+    weight_factor: 0.25975024300652244
+    weight_std: 0.04655777823302412
+- parameters:
+    model_alpha: 0.04563030438467894
+    weight_eps: 1.257520193771733e-07
+    weight_factor: 0.33354504412306263
+    weight_std: 0.042824047741119475
+- parameters:
+    model_alpha: 0.030059556634511705
+    weight_eps: 4.1281910915134473e-07
+    weight_factor: 0.40534549883619564
+    weight_std: 0.07582229800143747
+- parameters:
+    model_alpha: 484.75087593073596
+    weight_eps: 2.69397831382474e-07
+    weight_factor: 0.3416524882537376
+    weight_std: 0.5424781758679718
+- parameters:
+    model_alpha: 50.41068691533643
+    weight_eps: 9.61673552239852e-06
+    weight_factor: 0.09134020593997315
+    weight_std: 0.06912377543586261
+- parameters:
+    model_alpha: 0.00014815484314620092
+    weight_eps: 1.4192131581294296e-05
+    weight_factor: 0.1164764625604248
+    weight_std: 0.2866168485867748
+- parameters:
+    model_alpha: 13.344330713549331
+    weight_eps: 0.0008889984778222106
+    weight_factor: 0.0653549092205401
+    weight_std: 0.023350762896626867
+- parameters:
+    model_alpha: 0.17968919636677774
+    weight_eps: 0.002265119225346119
+    weight_factor: 0.16923858936462038
+    weight_std: 0.0191131498590779
+- parameters:
+    model_alpha: 342485.63348236424
+    weight_eps: 0.0012579218970536145
+    weight_factor: 0.05790869204591605
+    weight_std: 0.0027306277523582016
+- parameters:
+    model_alpha: 5.505543834319764e-06
+    weight_eps: 0.0599460165678379
+    weight_factor: 0.07305315387551853
+    weight_std: 0.005131682758682557
+- parameters:
+    model_alpha: 2.116724166769966e-06
+    weight_eps: 0.008998126924331183
+    weight_factor: 0.2933232188086051
+    weight_std: 0.2308636263045819
+- parameters:
+    model_alpha: 0.02108374171471259
+    weight_eps: 2.495532819328768e-06
+    weight_factor: 0.3146743816966649
+    weight_std: 0.008942387927834205
+- parameters:
+    model_alpha: 0.00339977688766705
+    weight_eps: 4.2282503135151746e-05
+    weight_factor: 0.39359199192091515
+    weight_std: 0.024718397382800218
+- parameters:
+    model_alpha: 6.564565547537884
+    weight_eps: 0.086169189574284
+    weight_factor: 0.32408914698563057
+    weight_std: 0.065548699100789
+- parameters:
+    model_alpha: 0.0021738181999677634
+    weight_eps: 0.0002149994160934084
+    weight_factor: 0.4960682963508389
+    weight_std: 0.9443755893991165
+- parameters:
+    model_alpha: 0.0080594872537373
+    weight_eps: 8.000280076161864e-07
+    weight_factor: 0.2487408673919689
+    weight_std: 0.26614701340663394
+- parameters:
+    model_alpha: 0.000620502439578415
+    weight_eps: 5.22447768859269e-07
+    weight_factor: 0.3509278639120102
+    weight_std: 0.93304537505659
+- parameters:
+    model_alpha: 614421.6657890048
+    weight_eps: 0.0010472600356480157
+    weight_factor: 0.16330401439047498
+    weight_std: 0.36186781320127714
+- parameters:
+    model_alpha: 1.6042911441026175e-05
+    weight_eps: 0.06667532899626029
+    weight_factor: 0.012019663953892284
+    weight_std: 0.017188690782246156
+- parameters:
+    model_alpha: 0.06749254534809983
+    weight_eps: 0.0009786462881240998
+    weight_factor: 0.20481585293362176
+    weight_std: 0.11375115929887702
+- parameters:
+    model_alpha: 231576.64125429193
+    weight_eps: 0.002429593002479802
+    weight_factor: 0.4191988822315984
+    weight_std: 0.4018653982217081
+- parameters:
+    model_alpha: 5.27007792458843e-05
+    weight_eps: 8.905957710216719e-05
+    weight_factor: 0.028764860851091013
+    weight_std: 0.2433008095140232
+- parameters:
+    model_alpha: 637.3015808972493
+    weight_eps: 0.0002644976503601061
+    weight_factor: 0.08252195945332906
+    weight_std: 0.02980787965418291
+- parameters:
+    model_alpha: 1.3579160056507978e-05
+    weight_eps: 2.559690305297572e-07
+    weight_factor: 0.19194685101253758
+    weight_std: 0.010261940199779865
+- parameters:
+    model_alpha: 2171.1839234605704
+    weight_eps: 0.005671437542084116
+    weight_factor: 0.4760595170196287
+    weight_std: 0.10022921314404526
+- parameters:
+    model_alpha: 3889.9895871703256
+    weight_eps: 1.7957666895857098e-05
+    weight_factor: 0.2713722966584095
+    weight_std: 0.47691512619907367
+- parameters:
+    model_alpha: 4.301483354600717
+    weight_eps: 3.7084944071581726e-05
+    weight_factor: 0.23375388293634702
+    weight_std: 0.05392909982794287
+- parameters:
+    model_alpha: 27.841100981939178
+    weight_eps: 2.644000088219186e-05
+    weight_factor: 0.3793750102283459
+    weight_std: 0.002099542467608593
+- parameters:
+    model_alpha: 1.126605631520043e-05
+    weight_eps: 1.0681891501189415e-07
+    weight_factor: 0.021052564556640726
+    weight_std: 0.04115168460320573
+- parameters:
+    model_alpha: 0.0010372178656042877
+    weight_eps: 6.007988003137961e-07
+    weight_factor: 0.3559461026899582
+    weight_std: 0.014372656263838931
+- parameters:
+    model_alpha: 1.298312496425854
+    weight_eps: 0.004107363126480391
+    weight_factor: 0.4428438184538891
+    weight_std: 0.16007074596820214
+- parameters:
+    model_alpha: 0.0015149286211713195
+    weight_eps: 3.6727223119291364e-06
+    weight_factor: 0.16160580119590362
+    weight_std: 0.008409629249748257
+- parameters:
+    model_alpha: 1.266452877942005e-06
+    weight_eps: 3.389392664702618e-06
+    weight_factor: 0.40942616125776665
+    weight_std: 0.0034098673462822212
+- parameters:
+    model_alpha: 61572.311438570025
+    weight_eps: 0.00044120154964698115
+    weight_factor: 0.27755747319867413
+    weight_std: 0.13949158101868767
+- parameters:
+    model_alpha: 0.5707121855720544
+    weight_eps: 0.00017502195819123705
+    weight_factor: 0.4361964467181154
+    weight_std: 0.007229970743680852
+- parameters:
+    model_alpha: 0.0055793915980998105
+    weight_eps: 0.0029360466712250797
+    weight_factor: 0.22955834099991812
+    weight_std: 0.05794346142460202
+- parameters:
+    model_alpha: 0.0026285658749562583
+    weight_eps: 0.0007663290742875626
+    weight_factor: 0.12591659630766802
+    weight_std: 0.015983057308426495
+- parameters:
+    model_alpha: 4036.1884517709864
+    weight_eps: 0.05174881909958527
+    weight_factor: 0.21930954556597437
+    weight_std: 0.00637606660925361
+- parameters:
+    model_alpha: 0.00011102184714282016
+    weight_eps: 5.533335920396823e-06
+    weight_factor: 0.4483310550250518
+    weight_std: 0.003139962383067555
+- parameters:
+    model_alpha: 136.71293367207628
+    weight_eps: 0.01054374538017647
+    weight_factor: 0.10536142890994385
+    weight_std: 0.10334097594939967
+- parameters:
+    model_alpha: 181.74697648374388
+    weight_eps: 0.007564945815226928
+    weight_factor: 0.4148915732901576
+    weight_std: 0.3151591382837443
+- parameters:
+    model_alpha: 25501.664850926427
+    weight_eps: 7.260607252543926e-07
+    weight_factor: 0.3841267075489154
+    weight_std: 0.0011743470809561886
+- parameters:
+    model_alpha: 106.95169659509862
+    weight_eps: 0.014371372316315481
+    weight_factor: 0.03332524755307051
+    weight_std: 0.0011133921389480145
+- parameters:
+    model_alpha: 0.31740728221352404
+    weight_eps: 4.973237062763167e-05
+    weight_factor: 0.1500085036798361
+    weight_std: 0.42282248003940887
+- parameters:
+    model_alpha: 0.21162941901942642
+    weight_eps: 0.020325040393037647
+    weight_factor: 0.4605798404651719
+    weight_std: 0.6778432743677456
+- parameters:
+    model_alpha: 2.64343531010853e-06
+    weight_eps: 3.93634996286777e-07
+    weight_factor: 0.3760068974508897
+    weight_std: 0.12270670455995779
+- parameters:
+    model_alpha: 1.3400323391001957e-06
+    weight_eps: 6.807266440529956e-07
+    weight_factor: 0.48777022105434004
+    weight_std: 0.07915032021007574
+- parameters:
+    model_alpha: 1.9033146724848753
+    weight_eps: 3.1007353717146464e-05
+    weight_factor: 0.21149803568016826
+    weight_std: 0.0035446110470239277
+- parameters:
+    model_alpha: 3.153258922638376e-06
+    weight_eps: 0.022406225070760604
+    weight_factor: 0.07451539404800026
+    weight_std: 0.13485306489161492
+- parameters:
+    model_alpha: 46834.32724224862
+    weight_eps: 0.0034477120122409378
+    weight_factor: 0.11196124966033277
+    weight_std: 0.0199579986010752
+- parameters:
+    model_alpha: 6326.9927438687655
+    weight_eps: 1.1289880602518375e-06
+    weight_factor: 0.2942422223601675
+    weight_std: 0.3087650962207771
+- parameters:
+    model_alpha: 0.06069308296998725
+    weight_eps: 1.455831558164185e-07
+    weight_factor: 0.3628875646484678
+    weight_std: 0.06026556102042837
+- parameters:
+    model_alpha: 0.0005342989900915221
+    weight_eps: 0.00016513433702916347
+    weight_factor: 0.15461914650663147
+    weight_std: 0.03380978332824808
+- parameters:
+    model_alpha: 8.468580434896637e-06
+    weight_eps: 7.328422871086755e-06
+    weight_factor: 0.23656564565946395
+    weight_std: 0.006682447369496913
+- parameters:
+    model_alpha: 0.08597062426488142
+    weight_eps: 0.0017508917208404365
+    weight_factor: 0.4834634425871439
+    weight_std: 0.011140875994857089
+- parameters:
+    model_alpha: 1239.1170002838521
+    weight_eps: 1.5773696307510977e-06
+    weight_factor: 0.42902470861474007
+    weight_std: 0.6483410632519588
+- parameters:
+    model_alpha: 3.074725047767584
+    weight_eps: 0.00011586525129333231
+    weight_factor: 0.4255830290101143
+    weight_std: 0.18054241266206644
+- parameters:
+    model_alpha: 91153.04410453643
+    weight_eps: 0.004695319380738787
+    weight_factor: 0.1994130401950305
+    weight_std: 0.20645719387460504
+- parameters:
+    model_alpha: 17.226280890669866
+    weight_eps: 0.0001051944429265337
+    weight_factor: 0.1847314749712289
+    weight_std: 0.012262835154331684
+- parameters:
+    model_alpha: 1.6023346072816083
+    weight_eps: 1.1386714262439558e-05
+    weight_factor: 0.2677496180309613
+    weight_std: 0.028037471511840772
+- parameters:
+    model_alpha: 24.047714786981107
+    weight_eps: 3.183711708448989e-07
+    weight_factor: 0.17566468397119717
+    weight_std: 0.5774463878886607
+- parameters:
+    model_alpha: 0.00039521722214217624
+    weight_eps: 0.027222889596153755
+    weight_factor: 0.14586089840362648
+    weight_std: 0.0022405901019525213
+name: rober
+shared:
+  module: experiments.ode
+  parameters:
+    data_file: rober_ode.csv
+    equation: rober
+  random_state: 42

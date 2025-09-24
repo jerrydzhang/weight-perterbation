@@ -1,12 +1,12 @@
 name: example
 description: example
 shared:
-  module: experiments.base
+  module: experiments.synthetic
   random_state: 42
   parameters:
     n_samples: 256
     n_features: 100
-    graph_file: base_hbr.yaml
+    graph_file: base_independent.yaml
 experiments:
   - parameters: 
       alpha: 0.5

@@ -1,0 +1,8 @@
+name: rober
+description: Robertson's equations
+shared:
+  module: experiments.ode
+  random_state: 42
+  parameters:
+    data_file: rober_ode.csv
+    equation: rober
