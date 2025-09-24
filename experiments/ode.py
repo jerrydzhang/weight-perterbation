@@ -17,7 +17,7 @@ from jernerics.generate.generator import DataGenerator
 from sklearn.model_selection import TimeSeriesSplit
 
 import weighting
-from models import WeightedLasso
+from models import DebiasedLasso
 from utils.ode import map_equation
 
 DATA_DIR = Path(__file__).parent / "data"
@@ -41,7 +41,7 @@ def time_limit(seconds):
 
 
 @dataclass
-class WeightedLassoExperiment(Experiment):
+class DebiasedLassoExperiment(Experiment):
     random_state: int
     metrics: dict[str, float] = field(default_factory=dict)
 
@@ -57,7 +57,7 @@ class WeightedLassoExperiment(Experiment):
 
         return X, t
 
-    def save_model(self: Self, result_path: Path, model: WeightedLasso) -> None:
+    def save_model(self: Self, result_path: Path, model: ps.SINDy) -> None:
         model_path = result_path / f"{self.task_id}_model.pkl"
         with open(model_path, "wb") as f:
             pickle.dump(model, f)
@@ -92,8 +92,11 @@ class WeightedLassoExperiment(Experiment):
             try:
                 model = ps.SINDy(
                     feature_library=library,
-                    optimizer=WeightedLasso(
-                        alpha=alpha, weights=weights, max_iter=100000
+                    optimizer=DebiasedLasso(
+                        alpha=alpha,
+                        weights=weights,
+                        max_iter=100000,
+                        threshhold=config["debiased_threshhold"],
                     ),
                     differentiation_method=ps.FiniteDifference(),
                 )
@@ -113,7 +116,12 @@ class WeightedLassoExperiment(Experiment):
 
         model = ps.SINDy(
             feature_library=library,
-            optimizer=WeightedLasso(alpha=alpha, weights=weights, max_iter=100000),
+            optimizer=DebiasedLasso(
+                alpha=alpha,
+                weights=weights,
+                max_iter=100000,
+                threshhold=config["debiased_threshhold"],
+            ),
             differentiation_method=ps.FiniteDifference(),
         )
         model.fit(X, t=t)
@@ -155,4 +163,4 @@ class WeightedLassoExperiment(Experiment):
 
 
 def get_experiment(config: dict) -> Experiment:
-    return WeightedLassoExperiment(**config)
+    return DebiasedLassoExperiment(**config)

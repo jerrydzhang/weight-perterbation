@@ -1,0 +1,1864 @@
+{
+    "47_model": {
+        "metrics": {
+            "nmse_0": 19.937368945085733,
+            "nmse_1": 439.51362819725637,
+            "nmse_2": 7.198125199361558,
+            "nmse_3": 137.84622484536936,
+            "nmse_4": 0.5500428663605983,
+            "nmse_5": 0.0,
+            "nmse_mean": 100.84089834223896
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.022538587061690034,
+            "weight_eps": 3.2748844553778033e-12,
+            "weight_factor": 0.11155984411909059,
+            "weight_std": 0.018523528121098275
+        }
+    },
+    "53_model": {
+        "metrics": {
+            "nmse_0": 23.06708056778127,
+            "nmse_1": 539.1251961847718,
+            "nmse_2": 2.982556480629003,
+            "nmse_3": 140.4237648014465,
+            "nmse_4": 0.19585809525444994,
+            "nmse_5": 0.0,
+            "nmse_mean": 117.63240935498051
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.481115286975907,
+            "weight_eps": 6.978095561528907e-05,
+            "weight_factor": 0.20300533442483054,
+            "weight_std": 0.9489231352711582
+        }
+    },
+    "40_model": {
+        "metrics": {
+            "nmse_0": 19.09507692376372,
+            "nmse_1": 431.2263560946435,
+            "nmse_2": 7.6507616303260875,
+            "nmse_3": 137.6036957418831,
+            "nmse_4": 0.5933124133205536,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36153380065616
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 3643.2461044707766,
+            "weight_eps": 1.9403924194074026e-11,
+            "weight_factor": 0.1587823371756998,
+            "weight_std": 0.005743442101053495
+        }
+    },
+    "63_model": {
+        "metrics": {
+            "nmse_0": 24.09438210651053,
+            "nmse_1": 503.1981556290157,
+            "nmse_2": 4.1239201418353275,
+            "nmse_3": 139.45402007250613,
+            "nmse_4": 0.2666012835617637,
+            "nmse_5": 0.0,
+            "nmse_mean": 111.85617987223826
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.04625612218548591,
+            "weight_eps": 9.258141383275389e-09,
+            "weight_factor": 0.152852902233094,
+            "weight_std": 0.001914644227160874
+        }
+    },
+    "74_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 13.775646400744991,
+            "weight_eps": 2.1633510241571584e-13,
+            "weight_factor": 0.4559287712761801,
+            "weight_std": 0.25423590619965186
+        }
+    },
+    "54_model": {
+        "metrics": {
+            "nmse_0": 19.10367765856735,
+            "nmse_1": 431.0035310068937,
+            "nmse_2": 7.6570357357672005,
+            "nmse_3": 137.59904960304232,
+            "nmse_4": 0.5938646903526283,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.32619311577052
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 5.900475361745103,
+            "weight_eps": 5.087713512646373e-13,
+            "weight_factor": 0.17895587071418215,
+            "weight_std": 0.12170902816329757
+        }
+    },
+    "87_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.006288020235904223,
+            "weight_eps": 0.0934036140352151,
+            "weight_factor": 0.0573761285115508,
+            "weight_std": 0.0011254668819184715
+        }
+    },
+    "84_model": {
+        "metrics": {
+            "nmse_0": 19.344725831760137,
+            "nmse_1": 433.54129124286635,
+            "nmse_2": 7.515541121223606,
+            "nmse_3": 137.69127902657095,
+            "nmse_4": 0.5799255471360496,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.77879379492617
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.00949979284491332,
+            "weight_eps": 4.079405315095983e-14,
+            "weight_factor": 0.22983426317615085,
+            "weight_std": 0.009639131705408959
+        }
+    },
+    "9_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.008592374936357014,
+            "weight_eps": 0.019829726064476718,
+            "weight_factor": 0.30312179943933804,
+            "weight_std": 0.4856991206359779
+        }
+    },
+    "86_model": {
+        "metrics": {
+            "nmse_0": 19.096716355912015,
+            "nmse_1": 431.2058091207847,
+            "nmse_2": 7.651187942964286,
+            "nmse_3": 137.60386879951812,
+            "nmse_4": 0.5933584542024316,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.35849011223024
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 754.9464610992466,
+            "weight_eps": 3.746900133556861e-09,
+            "weight_factor": 0.16727823032971198,
+            "weight_std": 0.020167528082608518
+        }
+    },
+    "14_model": {
+        "metrics": {
+            "nmse_0": 19.322059085583295,
+            "nmse_1": 433.34199222484887,
+            "nmse_2": 7.522518658183243,
+            "nmse_3": 137.67708609605478,
+            "nmse_4": 0.5804280029732902,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.74068067794057
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 2100.9466181576595,
+            "weight_eps": 0.001983303366843296,
+            "weight_factor": 0.37945656178207204,
+            "weight_std": 0.0014332717428453133
+        }
+    },
+    "15_model": {
+        "metrics": {
+            "nmse_0": 23.384274236840213,
+            "nmse_1": 529.5087847308099,
+            "nmse_2": 3.1650067816511607,
+            "nmse_3": 139.980681826125,
+            "nmse_4": 0.20722860999143733,
+            "nmse_5": 0.0,
+            "nmse_mean": 116.04099603090297
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.004007150842606815,
+            "weight_eps": 1.6186172364321583e-09,
+            "weight_factor": 0.39797979414515144,
+            "weight_std": 0.05738575771408108
+        }
+    },
+    "94_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1.1241980660780212e-06,
+            "weight_eps": 5.573297383478657e-09,
+            "weight_factor": 0.08301572018456685,
+            "weight_std": 0.15569524118241518
+        }
+    },
+    "95_model": {
+        "metrics": {
+            "nmse_0": 19.14773573954722,
+            "nmse_1": 430.79651738454163,
+            "nmse_2": 7.652803006164128,
+            "nmse_3": 137.608119089097,
+            "nmse_4": 0.5933941388886175,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.29976155970643
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 7035.94520844078,
+            "weight_eps": 0.0004574984442929718,
+            "weight_factor": 0.36411288757616467,
+            "weight_std": 0.36121773215498904
+        }
+    },
+    "33_model": {
+        "metrics": {
+            "nmse_0": 19.095150908684765,
+            "nmse_1": 431.2278734299412,
+            "nmse_2": 7.650688810967551,
+            "nmse_3": 137.60379375038386,
+            "nmse_4": 0.5933062319453666,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36180218865378
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 843.5504092501607,
+            "weight_eps": 9.270287470037398e-11,
+            "weight_factor": 0.2720638329086522,
+            "weight_std": 0.005348830582361777
+        }
+    },
+    "6_model": {
+        "metrics": {
+            "nmse_0": 19.095329179061018,
+            "nmse_1": 431.23152141521155,
+            "nmse_2": 7.650514309600473,
+            "nmse_3": 137.60402649094146,
+            "nmse_4": 0.5932912014192617,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36244709937229
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 4.639962762580143,
+            "weight_eps": 2.5558976714158054e-14,
+            "weight_factor": 0.4027775781904005,
+            "weight_std": 0.004459686637388305
+        }
+    },
+    "38_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.00012910195025484758,
+            "weight_eps": 4.101144875703327e-07,
+            "weight_factor": 0.35608760968436093,
+            "weight_std": 0.003455695597725551
+        }
+    },
+    "64_model": {
+        "metrics": {
+            "nmse_0": 21.18728546723547,
+            "nmse_1": 452.8707800894756,
+            "nmse_2": 6.495283259525298,
+            "nmse_3": 138.20769120209596,
+            "nmse_4": 0.48371131471358964,
+            "nmse_5": 0.0,
+            "nmse_mean": 103.20745855550764
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 186.30447839099068,
+            "weight_eps": 0.002286009781689791,
+            "weight_factor": 0.3703455506060416,
+            "weight_std": 0.002891649593267756
+        }
+    },
+    "71_model": {
+        "metrics": {
+            "nmse_0": 20.380436874870817,
+            "nmse_1": 443.7881368688022,
+            "nmse_2": 6.952354392090907,
+            "nmse_3": 138.00660139702893,
+            "nmse_4": 0.5271629840409422,
+            "nmse_5": 0.0,
+            "nmse_mean": 101.6091154194723
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 28.591874822110256,
+            "weight_eps": 1.54780471157173e-05,
+            "weight_factor": 0.07308802209282074,
+            "weight_std": 0.06428841158059422
+        }
+    },
+    "39_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 9195.923522553836,
+            "weight_eps": 1.8246668186806057e-05,
+            "weight_factor": 0.34642889614590855,
+            "weight_std": 0.008297311688218465
+        }
+    },
+    "91_model": {
+        "metrics": {
+            "nmse_0": 19.095132363238744,
+            "nmse_1": 431.22427499881735,
+            "nmse_2": 7.650828285722761,
+            "nmse_3": 137.60365084445604,
+            "nmse_4": 0.593318682926836,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36120086252696
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 16737.584185500386,
+            "weight_eps": 3.9180011347996227e-13,
+            "weight_factor": 0.4549809438023002,
+            "weight_std": 0.006813729160340722
+        }
+    },
+    "92_model": {
+        "metrics": {
+            "nmse_0": 22.6065140803194,
+            "nmse_1": 534.4394820959506,
+            "nmse_2": 3.182735249941116,
+            "nmse_3": 141.29306984866304,
+            "nmse_4": 0.1682060222105558,
+            "nmse_5": 0.0,
+            "nmse_mean": 116.94833454951409
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0001925442078516842,
+            "weight_eps": 4.403993435938486e-11,
+            "weight_factor": 0.049311020355942495,
+            "weight_std": 0.0676519331894381
+        }
+    },
+    "46_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.01733786969071664,
+            "weight_eps": 0.00035225874828814796,
+            "weight_factor": 0.21251124828783324,
+            "weight_std": 0.09312847758776471
+        }
+    },
+    "78_model": {
+        "metrics": {
+            "nmse_0": 19.10729097790171,
+            "nmse_1": 430.88578880859313,
+            "nmse_2": 7.660998359343478,
+            "nmse_3": 137.5981140273174,
+            "nmse_4": 0.5942931867454133,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.30774755998351
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 410498.30297179695,
+            "weight_eps": 0.0010203162489516335,
+            "weight_factor": 0.31047312497232976,
+            "weight_std": 0.18750277368286944
+        }
+    },
+    "60_model": {
+        "metrics": {
+            "nmse_0": 21.893965737600162,
+            "nmse_1": 524.1354319482061,
+            "nmse_2": 3.5343997663655533,
+            "nmse_3": 141.9711956959238,
+            "nmse_4": 0.15552921235273118,
+            "nmse_5": 0.0,
+            "nmse_mean": 115.2817537267414
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.18759453758916553,
+            "weight_eps": 8.368868220028406e-05,
+            "weight_factor": 0.12600178961523376,
+            "weight_std": 0.0034684087066194904
+        }
+    },
+    "44_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 6616.443428087396,
+            "weight_eps": 3.128520043275093e-05,
+            "weight_factor": 0.015803125100590308,
+            "weight_std": 0.016988961067242802
+        }
+    },
+    "77_model": {
+        "metrics": {
+            "nmse_0": 23.015720819648095,
+            "nmse_1": 537.6607962944655,
+            "nmse_2": 3.041589540683372,
+            "nmse_3": 140.74449955537165,
+            "nmse_4": 0.19208245989834466,
+            "nmse_5": 0.0,
+            "nmse_mean": 117.44244811167782
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 9.546056040765432,
+            "weight_eps": 0.04864304122181608,
+            "weight_factor": 0.05905307222121096,
+            "weight_std": 0.038704456656695085
+        }
+    },
+    "10_model": {
+        "metrics": {
+            "nmse_0": 22.02681084067022,
+            "nmse_1": 462.7292771863614,
+            "nmse_2": 6.001093983588975,
+            "nmse_3": 138.43858610970494,
+            "nmse_4": 0.43530932335584727,
+            "nmse_5": 0.0,
+            "nmse_mean": 104.93851290728021
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 258.6756411230824,
+            "weight_eps": 0.012253600014082714,
+            "weight_factor": 0.1025040778764599,
+            "weight_std": 0.011131823567287208
+        }
+    },
+    "4_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0022747965460436052,
+            "weight_eps": 1.1788955861675625e-05,
+            "weight_factor": 0.35838928658388514,
+            "weight_std": 0.06257551685965167
+        }
+    },
+    "99_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.012712035216250049,
+            "weight_eps": 0.009867837672766087,
+            "weight_factor": 0.1726552300717411,
+            "weight_std": 0.005025820507533246
+        }
+    },
+    "69_model": {
+        "metrics": {
+            "nmse_0": 19.09518392196693,
+            "nmse_1": 431.2232801691579,
+            "nmse_2": 7.6508550214451425,
+            "nmse_3": 137.60364271270802,
+            "nmse_4": 0.5933213185777059,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36104719064262
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 82.73961614030533,
+            "weight_eps": 1.3503784142058325e-14,
+            "weight_factor": 0.18550117341236072,
+            "weight_std": 0.007407744957820863
+        }
+    },
+    "93_model": {
+        "metrics": {
+            "nmse_0": 19.094742891812732,
+            "nmse_1": 431.2313750216265,
+            "nmse_2": 7.653447217053989,
+            "nmse_3": 137.62035871713755,
+            "nmse_4": 0.592855889582274,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36546328953553
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 581258.8967217425,
+            "weight_eps": 0.06026321660310322,
+            "weight_factor": 0.32430406551611146,
+            "weight_std": 0.02168487064829269
+        }
+    },
+    "67_model": {
+        "metrics": {
+            "nmse_0": 276.285818336761,
+            "nmse_1": 2014.0138027434139,
+            "nmse_2": 377848.92617838265,
+            "nmse_3": 99394257613.0348,
+            "nmse_4": 235899.7881737774,
+            "nmse_5": 0.0,
+            "nmse_mean": 16565812275.341463
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1.5783921598123262e-06,
+            "weight_eps": 2.039810573740383e-06,
+            "weight_factor": 0.31807735253938985,
+            "weight_std": 0.0015797014374518542
+        }
+    },
+    "62_model": {
+        "metrics": {
+            "nmse_0": 19.116555130473436,
+            "nmse_1": 430.58295347028604,
+            "nmse_2": 7.670450982892927,
+            "nmse_3": 137.59223909063715,
+            "nmse_4": 0.595190578164742,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.25956487540905
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 52029.059122231825,
+            "weight_eps": 1.2607957145257088e-07,
+            "weight_factor": 0.4615380696967943,
+            "weight_std": 0.336506985551405
+        }
+    },
+    "28_model": {
+        "metrics": {
+            "nmse_0": 19.14382465635035,
+            "nmse_1": 430.93235826241215,
+            "nmse_2": 7.651282102414692,
+            "nmse_3": 137.6133079918825,
+            "nmse_4": 0.5930146998229724,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.32229795214714
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 23.970408653293198,
+            "weight_eps": 4.202640370699819e-09,
+            "weight_factor": 0.32118075464502355,
+            "weight_std": 0.30250547805713196
+        }
+    },
+    "34_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 9.636994225970174e-05,
+            "weight_eps": 0.00029488003598769137,
+            "weight_factor": 0.4680671861849133,
+            "weight_std": 0.039956843223994364
+        }
+    },
+    "43_model": {
+        "metrics": {
+            "nmse_0": 22.674522282256348,
+            "nmse_1": 536.2662381069235,
+            "nmse_2": 3.1332915858958277,
+            "nmse_3": 141.24756452745746,
+            "nmse_4": 0.1756033255883292,
+            "nmse_5": 0.0,
+            "nmse_mean": 117.24953663802025
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0033047674200066325,
+            "weight_eps": 1.1368252104344265e-08,
+            "weight_factor": 0.37722505184677774,
+            "weight_std": 0.0012390739339081342
+        }
+    },
+    "81_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 8.199050549371208e-05,
+            "weight_eps": 0.00011507511037234185,
+            "weight_factor": 0.23127397136622005,
+            "weight_std": 0.8794492857198631
+        }
+    },
+    "5_model": {
+        "metrics": {
+            "nmse_0": 9.884086506703,
+            "nmse_1": 330.7808900939116,
+            "nmse_2": 15.086891836058355,
+            "nmse_3": 154.670075511423,
+            "nmse_4": 1.245809444613021,
+            "nmse_5": 0.0,
+            "nmse_mean": 85.27795889878482
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.3339978315509513,
+            "weight_eps": 0.005231146510996145,
+            "weight_factor": 0.2868649905326431,
+            "weight_std": 0.010249771600964819
+        }
+    },
+    "32_model": {
+        "metrics": {
+            "nmse_0": 9.627715104651536,
+            "nmse_1": 60.77157205660541,
+            "nmse_2": 96.07888645396676,
+            "nmse_3": 271.0413672054251,
+            "nmse_4": 13.807660005483285,
+            "nmse_5": 0.0,
+            "nmse_mean": 75.22120013768868
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 4.503463987052297e-06,
+            "weight_eps": 5.897743549873198e-14,
+            "weight_factor": 0.0291576199562594,
+            "weight_std": 0.7859636020468921
+        }
+    },
+    "20_model": {
+        "metrics": {
+            "nmse_0": 24.09605641997419,
+            "nmse_1": 505.45843186941363,
+            "nmse_2": 4.014757247640906,
+            "nmse_3": 139.4524222108281,
+            "nmse_4": 0.2581853296863889,
+            "nmse_5": 0.0,
+            "nmse_mean": 112.21330884625719
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0001820028435568142,
+            "weight_eps": 1.7372091214430394e-13,
+            "weight_factor": 0.1909692566522594,
+            "weight_std": 0.10028588401046847
+        }
+    },
+    "89_model": {
+        "metrics": {
+            "nmse_0": 12.917180544615167,
+            "nmse_1": 358.2557477605211,
+            "nmse_2": 11.966168299356369,
+            "nmse_3": 150.0219335223502,
+            "nmse_4": 0.8470216153932093,
+            "nmse_5": 0.0,
+            "nmse_mean": 89.00134195703936
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0011356708737519843,
+            "weight_eps": 3.751873813048447e-08,
+            "weight_factor": 0.4433850022712124,
+            "weight_std": 0.07462809455928776
+        }
+    },
+    "8_model": {
+        "metrics": {
+            "nmse_0": 19.09649942184776,
+            "nmse_1": 431.1834675328135,
+            "nmse_2": 7.6520748900347995,
+            "nmse_3": 137.6029255858336,
+            "nmse_4": 0.593437475213686,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.35473415095721
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 242.47178501167127,
+            "weight_eps": 2.257319496798733e-14,
+            "weight_factor": 0.4376346321634451,
+            "weight_std": 0.028766027748296348
+        }
+    },
+    "11_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1.4391571980355007e-05,
+            "weight_eps": 3.2974924644093226e-10,
+            "weight_factor": 0.25253188103431773,
+            "weight_std": 0.6102537026524951
+        }
+    },
+    "12_model": {
+        "metrics": {
+            "nmse_0": 19.097726716444203,
+            "nmse_1": 431.1489544102317,
+            "nmse_2": 7.653114457955637,
+            "nmse_3": 137.60235244942476,
+            "nmse_4": 0.5935369521203394,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.34928083102943
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 130.3952501223314,
+            "weight_eps": 7.908106669136221e-13,
+            "weight_factor": 0.13085257813773687,
+            "weight_std": 0.04747828688074375
+        }
+    },
+    "66_model": {
+        "metrics": {
+            "nmse_0": 276.6235283209839,
+            "nmse_1": 2106.0480766959217,
+            "nmse_2": 380828.83056802466,
+            "nmse_3": 95893707608.41039,
+            "nmse_4": 236278.39896696692,
+            "nmse_5": 0.0,
+            "nmse_mean": 15982387849.718588
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 3.816492023823428e-06,
+            "weight_eps": 0.00020525086316422955,
+            "weight_factor": 0.12121494486989205,
+            "weight_std": 0.10339302676231288
+        }
+    },
+    "17_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 3.172388000560409e-05,
+            "weight_eps": 1.8377672637489528e-10,
+            "weight_factor": 0.07586898530687756,
+            "weight_std": 0.1919677914336073
+        }
+    },
+    "80_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.060721160491266586,
+            "weight_eps": 0.000598642646895479,
+            "weight_factor": 0.4795373521724106,
+            "weight_std": 0.14909615415568822
+        }
+    },
+    "16_model": {
+        "metrics": {
+            "nmse_0": 19.13474391168549,
+            "nmse_1": 431.353918128062,
+            "nmse_2": 7.63654645091934,
+            "nmse_3": 137.6093027978993,
+            "nmse_4": 0.5917481861595107,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.38770991245428
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.10332184113870856,
+            "weight_eps": 9.398726411122664e-14,
+            "weight_factor": 0.26628925232757095,
+            "weight_std": 0.08558364770348656
+        }
+    },
+    "50_model": {
+        "metrics": {
+            "nmse_0": 276.6202749291539,
+            "nmse_1": 2114.885655206842,
+            "nmse_2": 381622.8166685507,
+            "nmse_3": 95571255029.60089,
+            "nmse_4": 236282.96621494336,
+            "nmse_5": 0.0,
+            "nmse_mean": 15928645887.81495
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1.712012519289627e-05,
+            "weight_eps": 0.02578824917627508,
+            "weight_factor": 0.2207772243299532,
+            "weight_std": 0.0024438847378177443
+        }
+    },
+    "21_model": {
+        "metrics": {
+            "nmse_0": 21.96030788511858,
+            "nmse_1": 461.9969770163318,
+            "nmse_2": 6.044025790599804,
+            "nmse_3": 138.39118948791491,
+            "nmse_4": 0.43921161694564315,
+            "nmse_5": 0.0,
+            "nmse_mean": 104.8052852994851
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 2.2480290682051036,
+            "weight_eps": 8.336246323875701e-07,
+            "weight_factor": 0.2761859475216392,
+            "weight_std": 0.00630702944725323
+        }
+    },
+    "35_model": {
+        "metrics": {
+            "nmse_0": 19.149634808659084,
+            "nmse_1": 431.02948600908155,
+            "nmse_2": 7.638046785484376,
+            "nmse_3": 137.6321906565925,
+            "nmse_4": 0.5899380527551966,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.33988271876211
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 38.06896631824698,
+            "weight_eps": 2.6521695471936887e-08,
+            "weight_factor": 0.2383826326223162,
+            "weight_std": 0.2444332527299276
+        }
+    },
+    "59_model": {
+        "metrics": {
+            "nmse_0": 22.80341251652214,
+            "nmse_1": 472.42505364514204,
+            "nmse_2": 5.513029268491539,
+            "nmse_3": 138.65459044446095,
+            "nmse_4": 0.3867233570498375,
+            "nmse_5": 0.0,
+            "nmse_mean": 106.63046820527775
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 2.348699890217207,
+            "weight_eps": 2.6325405803216112e-06,
+            "weight_factor": 0.06876169486446282,
+            "weight_std": 0.4345566326479163
+        }
+    },
+    "75_model": {
+        "metrics": {
+            "nmse_0": 23.96059614741639,
+            "nmse_1": 514.5306344864566,
+            "nmse_2": 3.6081508276653116,
+            "nmse_3": 139.53583046476882,
+            "nmse_4": 0.2301135867821045,
+            "nmse_5": 0.0,
+            "nmse_mean": 113.6442209188482
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.7552041858361169,
+            "weight_eps": 8.709253693101114e-06,
+            "weight_factor": 0.15051097795595347,
+            "weight_std": 0.03348342995947333
+        }
+    },
+    "90_model": {
+        "metrics": {
+            "nmse_0": 19.09313441412155,
+            "nmse_1": 431.2665687869114,
+            "nmse_2": 7.652464696060596,
+            "nmse_3": 137.6207454298256,
+            "nmse_4": 0.5927597689339619,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.37094551597552
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.23151563901026817,
+            "weight_eps": 6.4620878174162585e-15,
+            "weight_factor": 0.28129264970531215,
+            "weight_std": 0.0012045761316829484
+        }
+    },
+    "25_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 523371.5707847095,
+            "weight_eps": 3.2225027778188106e-05,
+            "weight_factor": 0.014057633148976581,
+            "weight_std": 0.03047936913026232
+        }
+    },
+    "52_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1.1314340545366941e-05,
+            "weight_eps": 1.0495853585098496e-06,
+            "weight_factor": 0.4361382125813989,
+            "weight_std": 0.5532591718701164
+        }
+    },
+    "96_model": {
+        "metrics": {
+            "nmse_0": 23.59139583994804,
+            "nmse_1": 524.1351150057027,
+            "nmse_2": 3.288440508293883,
+            "nmse_3": 139.74658919622806,
+            "nmse_4": 0.21341781861867043,
+            "nmse_5": 0.0,
+            "nmse_mean": 115.16249306146523
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0004823639273416448,
+            "weight_eps": 1.0826339193949902e-11,
+            "weight_factor": 0.19976037446327352,
+            "weight_std": 0.00100352844960186
+        }
+    },
+    "51_model": {
+        "metrics": {
+            "nmse_0": 23.83639507900061,
+            "nmse_1": 520.1536378157682,
+            "nmse_2": 3.4750419592614383,
+            "nmse_3": 139.87004062677892,
+            "nmse_4": 0.2264851746292677,
+            "nmse_5": 0.0,
+            "nmse_mean": 114.59360010923974
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.000757730895921716,
+            "weight_eps": 1.241676867996026e-11,
+            "weight_factor": 0.4277241235779617,
+            "weight_std": 0.6466162069444176
+        }
+    },
+    "37_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0013975879372670173,
+            "weight_eps": 0.0036388292905326237,
+            "weight_factor": 0.4887207084983538,
+            "weight_std": 0.5278961927193647
+        }
+    },
+    "26_model": {
+        "metrics": {
+            "nmse_0": 276.4027078724594,
+            "nmse_1": 2018.0974309859998,
+            "nmse_2": 377770.11531928636,
+            "nmse_3": 99490953206.6748,
+            "nmse_4": 236004.43797789072,
+            "nmse_5": 0.0,
+            "nmse_mean": 16581928212.621374
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 2.0257589111748275e-06,
+            "weight_eps": 3.888828710929509e-06,
+            "weight_factor": 0.4467291740231323,
+            "weight_std": 0.20889708969319
+        }
+    },
+    "3_model": {
+        "metrics": {
+            "nmse_0": 19.095730619971363,
+            "nmse_1": 431.2064863346843,
+            "nmse_2": 7.651371370234253,
+            "nmse_3": 137.60333514778037,
+            "nmse_4": 0.5933704535816109,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.35838232104199
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 24935.812105082838,
+            "weight_eps": 1.1603975419673803e-10,
+            "weight_factor": 0.2556013141932051,
+            "weight_std": 0.016406708859860345
+        }
+    },
+    "76_model": {
+        "metrics": {
+            "nmse_0": 24.106303853104578,
+            "nmse_1": 505.23498856363153,
+            "nmse_2": 4.0218643174418265,
+            "nmse_3": 139.44848551252562,
+            "nmse_4": 0.2585589085068122,
+            "nmse_5": 0.0,
+            "nmse_mean": 112.17836685920172
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 5.057784020181306e-05,
+            "weight_eps": 1.1883047393364127e-14,
+            "weight_factor": 0.2071824291752657,
+            "weight_std": 0.014462982000109608
+        }
+    },
+    "2_model": {
+        "metrics": {
+            "nmse_0": 19.09492712529947,
+            "nmse_1": 431.23103077737966,
+            "nmse_2": 7.650617254614425,
+            "nmse_3": 137.6037830735546,
+            "nmse_4": 0.5932987252902443,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36227615935638
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 2687.761510737215,
+            "weight_eps": 2.1907484291723215e-11,
+            "weight_factor": 0.1364288162274924,
+            "weight_std": 0.0032308410204156886
+        }
+    },
+    "68_model": {
+        "metrics": {
+            "nmse_0": 19.096519263547577,
+            "nmse_1": 431.2208141417617,
+            "nmse_2": 7.650664636652435,
+            "nmse_3": 137.60430965031665,
+            "nmse_4": 0.5933103446499859,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36093633948808
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 60.34863344776917,
+            "weight_eps": 3.980884450227358e-11,
+            "weight_factor": 0.33153957759834296,
+            "weight_std": 0.013181447376738613
+        }
+    },
+    "30_model": {
+        "metrics": {
+            "nmse_0": 23.199100748136374,
+            "nmse_1": 534.7607891859491,
+            "nmse_2": 3.066542168087693,
+            "nmse_3": 140.36245419899615,
+            "nmse_4": 0.20146311949470136,
+            "nmse_5": 0.0,
+            "nmse_mean": 116.93172490344402
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0023049600765383442,
+            "weight_eps": 1.2339485242649024e-09,
+            "weight_factor": 0.41233210497347744,
+            "weight_std": 0.011247801077228541
+        }
+    },
+    "72_model": {
+        "metrics": {
+            "nmse_0": 19.123706618584315,
+            "nmse_1": 431.51103941965073,
+            "nmse_2": 7.632553039463707,
+            "nmse_3": 137.6175567178289,
+            "nmse_4": 0.5914628628395799,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.41271977639452
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 3.3158209553693685,
+            "weight_eps": 7.862056215570019e-11,
+            "weight_factor": 0.3365224246244449,
+            "weight_std": 0.0017286758150912391
+        }
+    },
+    "13_model": {
+        "metrics": {
+            "nmse_0": 19.728019150021417,
+            "nmse_1": 437.7504652484532,
+            "nmse_2": 7.307200134454068,
+            "nmse_3": 137.75357556292545,
+            "nmse_4": 0.5604380440568508,
+            "nmse_5": 0.0,
+            "nmse_mean": 100.51661635665182
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0009923985494284771,
+            "weight_eps": 3.1743480034690967e-15,
+            "weight_factor": 0.03648792203506234,
+            "weight_std": 0.008805937895489219
+        }
+    },
+    "23_model": {
+        "metrics": {
+            "nmse_0": 19.09230153581335,
+            "nmse_1": 431.2563741212192,
+            "nmse_2": 7.653025139191131,
+            "nmse_3": 137.6198972765053,
+            "nmse_4": 0.5928063907218089,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36906741057514
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.2588819523998427,
+            "weight_eps": 4.3668549112787525e-15,
+            "weight_factor": 0.39522827172325065,
+            "weight_std": 0.002558808904689677
+        }
+    },
+    "18_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 2.159355037348534e-05,
+            "weight_eps": 2.024508824523874e-07,
+            "weight_factor": 0.21612686318318908,
+            "weight_std": 0.0018014517610855307
+        }
+    },
+    "36_model": {
+        "metrics": {
+            "nmse_0": 23.526340788744047,
+            "nmse_1": 526.2497785710516,
+            "nmse_2": 3.2483236269935647,
+            "nmse_3": 139.81956125586868,
+            "nmse_4": 0.21288301494864523,
+            "nmse_5": 0.0,
+            "nmse_mean": 115.50948120960106
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0002881446897493719,
+            "weight_eps": 4.630676886214693e-12,
+            "weight_factor": 0.4199136712016501,
+            "weight_std": 0.22130722607618733
+        }
+    },
+    "83_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 2.4748879443703128e-06,
+            "weight_eps": 6.260860387948104e-12,
+            "weight_factor": 0.297089847318236,
+            "weight_std": 0.004071414874764771
+        }
+    },
+    "24_model": {
+        "metrics": {
+            "nmse_0": 19.300864782500714,
+            "nmse_1": 433.1984880410097,
+            "nmse_2": 7.532555379776327,
+            "nmse_3": 137.68459648552505,
+            "nmse_4": 0.5822414913938495,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.71645769670091
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1.3029519176707716,
+            "weight_eps": 5.966854571732988e-10,
+            "weight_factor": 0.033095553044585176,
+            "weight_std": 0.002245636916907006
+        }
+    },
+    "22_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 4.1430620168117254e-05,
+            "weight_eps": 1.2647380653616974e-12,
+            "weight_factor": 0.08509007306306207,
+            "weight_std": 0.0013536050155739964
+        }
+    },
+    "27_model": {
+        "metrics": {
+            "nmse_0": 19.116134409728904,
+            "nmse_1": 431.12807855234826,
+            "nmse_2": 7.650754911550289,
+            "nmse_3": 137.61196727114014,
+            "nmse_4": 0.5929681285192776,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.34998387888113
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.029299709420259546,
+            "weight_eps": 1.896739015295998e-15,
+            "weight_factor": 0.24686744410620803,
+            "weight_std": 0.14265963448757243
+        }
+    },
+    "45_model": {
+        "metrics": {
+            "nmse_0": 19.37807825457107,
+            "nmse_1": 433.9133647217405,
+            "nmse_2": 7.491537616608058,
+            "nmse_3": 137.68602223738625,
+            "nmse_4": 0.577769660451067,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.84112874845948
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.8198966307735809,
+            "weight_eps": 4.4250160369099665e-10,
+            "weight_factor": 0.47432690024193264,
+            "weight_std": 0.0020119264107871172
+        }
+    },
+    "58_model": {
+        "metrics": {
+            "nmse_0": 19.09625459893051,
+            "nmse_1": 431.2200623787221,
+            "nmse_2": 7.650749032764464,
+            "nmse_3": 137.6041314950658,
+            "nmse_4": 0.5933167335694947,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36075237317539
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1518.5577510756634,
+            "weight_eps": 1.5718432150206587e-08,
+            "weight_factor": 0.408912334782866,
+            "weight_std": 0.012553167456946285
+        }
+    },
+    "97_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.0004259732822284052,
+            "weight_eps": 5.171083757921081e-08,
+            "weight_factor": 0.14578291877044433,
+            "weight_std": 0.023864242324257202
+        }
+    },
+    "85_model": {
+        "metrics": {
+            "nmse_0": 21.020689657106246,
+            "nmse_1": 449.28640263558003,
+            "nmse_2": 6.661877565469673,
+            "nmse_3": 138.12064402607967,
+            "nmse_4": 0.4981314228826571,
+            "nmse_5": 0.0,
+            "nmse_mean": 102.59795755118638
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1.6661524560090861,
+            "weight_eps": 1.6296832976999724e-07,
+            "weight_factor": 0.38487337517776826,
+            "weight_std": 0.8238930984663139
+        }
+    },
+    "1_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 208539.60546226965,
+            "weight_eps": 9.727744582091581e-13,
+            "weight_factor": 0.10410754661666775,
+            "weight_std": 0.004638437071921894
+        }
+    },
+    "70_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 7.449789771694384e-06,
+            "weight_eps": 4.722109840632996e-06,
+            "weight_factor": 0.30644337209695877,
+            "weight_std": 0.45813865578847945
+        }
+    },
+    "61_model": {
+        "metrics": {
+            "nmse_0": 19.09519457652752,
+            "nmse_1": 431.2224283724479,
+            "nmse_2": 7.65088488935829,
+            "nmse_3": 137.60361722774422,
+            "nmse_4": 0.5933240526147481,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36090818644878
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 75055.80279325887,
+            "weight_eps": 2.9999631194213865e-13,
+            "weight_factor": 0.041857402892925596,
+            "weight_std": 0.007813828748153406
+        }
+    },
+    "57_model": {
+        "metrics": {
+            "nmse_0": 19.167887916471734,
+            "nmse_1": 430.1575220750024,
+            "nmse_2": 7.675158173472051,
+            "nmse_3": 137.5983066704459,
+            "nmse_4": 0.5952827973898562,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.19902627213031
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 13853.388308160827,
+            "weight_eps": 0.0014817189816512025,
+            "weight_factor": 0.4264737252743782,
+            "weight_std": 0.6639866866784706
+        }
+    },
+    "65_model": {
+        "metrics": {
+            "nmse_0": 22.597334468989356,
+            "nmse_1": 469.48016564659747,
+            "nmse_2": 5.655034016375133,
+            "nmse_3": 138.59735995559143,
+            "nmse_4": 0.40140243078718385,
+            "nmse_5": 0.0,
+            "nmse_mean": 106.12188275305675
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.08207460567188998,
+            "weight_eps": 2.4326805485905716e-09,
+            "weight_factor": 0.11551305742923866,
+            "weight_std": 0.39831004829732836
+        }
+    },
+    "19_model": {
+        "metrics": {
+            "nmse_0": 19.14374182905471,
+            "nmse_1": 429.7455971758146,
+            "nmse_2": 7.699109879249914,
+            "nmse_3": 137.59371838668767,
+            "nmse_4": 0.5972159710844978,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.12989720698192
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 354.0878201284043,
+            "weight_eps": 2.186302844699033e-08,
+            "weight_factor": 0.09679513041941433,
+            "weight_std": 0.7439356248622039
+        }
+    },
+    "88_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 93.51089985718197,
+            "weight_eps": 3.226376480402927e-07,
+            "weight_factor": 0.2931251694704788,
+            "weight_std": 0.04432195372656784
+        }
+    },
+    "79_model": {
+        "metrics": {
+            "nmse_0": 19.094974004168833,
+            "nmse_1": 431.230114093825,
+            "nmse_2": 7.650642235445457,
+            "nmse_3": 137.6037742100862,
+            "nmse_4": 0.5933011947920286,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36213428971958
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 496.2993052160698,
+            "weight_eps": 2.0943982036691307e-12,
+            "weight_factor": 0.3898607166152162,
+            "weight_std": 0.0037788694709176714
+        }
+    },
+    "7_model": {
+        "metrics": {
+            "nmse_0": 19.1149630997543,
+            "nmse_1": 430.6374727423405,
+            "nmse_2": 7.668732384610387,
+            "nmse_3": 137.59334106812057,
+            "nmse_4": 0.5950277984611556,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.26825618221449
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 46288.6343204748,
+            "weight_eps": 1.4760709405557495e-06,
+            "weight_factor": 0.24195191546937533,
+            "weight_std": 0.31035545186588637
+        }
+    },
+    "98_model": {
+        "metrics": {
+            "nmse_0": 24.01267830966083,
+            "nmse_1": 513.7736840175373,
+            "nmse_2": 3.668514152015877,
+            "nmse_3": 139.56005728275744,
+            "nmse_4": 0.2322799622523125,
+            "nmse_5": 0.0,
+            "nmse_mean": 113.54120228737061
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 20.454044677375933,
+            "weight_eps": 0.005604671891933827,
+            "weight_factor": 0.044933282451182006,
+            "weight_std": 0.05487765759045734
+        }
+    },
+    "100_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 5.365566534199812e-06,
+            "weight_eps": 9.830911209469923e-10,
+            "weight_factor": 0.19320493667877264,
+            "weight_std": 0.03559116340340668
+        }
+    },
+    "73_model": {
+        "metrics": {
+            "nmse_0": 19.096356256221046,
+            "nmse_1": 431.18978597324457,
+            "nmse_2": 7.651867353086663,
+            "nmse_3": 137.60307680981333,
+            "nmse_4": 0.5934180866984375,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.35575074651068
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 8.007743889104315,
+            "weight_eps": 2.1442963083782976e-15,
+            "weight_factor": 0.13932999568333018,
+            "weight_std": 0.025615502934444263
+        }
+    },
+    "42_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 184994.15028646583,
+            "weight_eps": 5.330458093381156e-07,
+            "weight_factor": 0.09311820929704145,
+            "weight_std": 0.17634721554641533
+        }
+    },
+    "41_model": {
+        "metrics": {
+            "nmse_0": 19.111732421968146,
+            "nmse_1": 431.2476592446636,
+            "nmse_2": 7.6472186738477985,
+            "nmse_3": 137.6137010693006,
+            "nmse_4": 0.5926289263967375,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36882338936283
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 106220.13764835293,
+            "weight_eps": 0.029022128929393078,
+            "weight_factor": 0.48436459184444774,
+            "weight_std": 0.07883263034773766
+        }
+    },
+    "82_model": {
+        "metrics": {
+            "nmse_0": 19.12722507141037,
+            "nmse_1": 431.1940314838465,
+            "nmse_2": 7.64414953622558,
+            "nmse_3": 137.60969601798584,
+            "nmse_4": 0.5930645462781192,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36136110929107
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 0.12079205520813613,
+            "weight_eps": 6.923001169859806e-14,
+            "weight_factor": 0.4949753327541653,
+            "weight_std": 0.13171369649838374
+        }
+    },
+    "49_model": {
+        "metrics": {
+            "nmse_0": 19.101907895108734,
+            "nmse_1": 431.02101508043495,
+            "nmse_2": 7.657046445328067,
+            "nmse_3": 137.60002168093865,
+            "nmse_4": 0.5939111867141375,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.32898371475409
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 4579.367088980976,
+            "weight_eps": 2.730504838122039e-12,
+            "weight_factor": 0.33972444627660275,
+            "weight_std": 0.11467180785309526
+        }
+    },
+    "55_model": {
+        "metrics": {
+            "nmse_0": 19.094882520677682,
+            "nmse_1": 431.23177584396615,
+            "nmse_2": 7.650598981905072,
+            "nmse_3": 137.60378407204007,
+            "nmse_4": 0.5932968719935574,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.36238971509708
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 973237.3651432117,
+            "weight_eps": 2.572112436632565e-10,
+            "weight_factor": 0.1645699615590772,
+            "weight_std": 0.0027559637838208925
+        }
+    },
+    "29_model": {
+        "metrics": {
+            "nmse_0": Infinity,
+            "nmse_1": Infinity,
+            "nmse_2": Infinity,
+            "nmse_3": Infinity,
+            "nmse_4": Infinity,
+            "nmse_5": Infinity,
+            "nmse_mean": Infinity
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 301801.02046440006,
+            "weight_eps": 8.102405795183913e-08,
+            "weight_factor": 0.0220796268351678,
+            "weight_std": 0.05003629008661937
+        }
+    },
+    "56_model": {
+        "metrics": {
+            "nmse_0": 19.162075124770002,
+            "nmse_1": 431.68691984820066,
+            "nmse_2": 7.609349613596979,
+            "nmse_3": 137.65358256711042,
+            "nmse_4": 0.5881574971476692,
+            "nmse_5": 0.0,
+            "nmse_mean": 99.45001410847095
+        },
+        "parameters": {
+            "data_file": "hydrogen_bromine_ode.csv",
+            "equation": "hydrogen_bromine",
+            "model_alpha": 1160.575711087456,
+            "weight_eps": 5.6414770609412543e-05,
+            "weight_factor": 0.49803724836638025,
+            "weight_std": 0.015671977602183976
+        }
+    }
+}
