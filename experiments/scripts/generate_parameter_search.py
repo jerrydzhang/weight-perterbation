@@ -3,16 +3,15 @@ import yaml
 from scipy.stats import qmc
 import pathlib
 
-out = "rober.yaml"
-file = "rober_header.yaml"
-# out = "hbr.yaml"
-# file = "hbr_header.yaml"
+# out = "rober_analytic_derivatives.yaml"
+# file = "rober_header.yaml"
+out = "hbr_analytic_derivatives.yaml"
+file = "hbr_header.yaml"
 n_experiments = 100
 param_ranges = {
     "model_alpha": (1e-6, 1e6),
     "weight_eps": (1e-7, 1e-1),
-    "weight_std": (1e-3, 1e0),
-    "weight_factor": (0.01, 0.5),
+    "weight_std": (1e-6, 1e0),
 }
 # Define which parameters to sample in log space
 log_params = ["model_alpha", "weight_eps", "weight_std"]

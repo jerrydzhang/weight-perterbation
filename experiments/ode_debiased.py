@@ -1,6 +1,5 @@
 import csv
 import importlib
-import multiprocessing
 import pickle
 import signal
 from contextlib import contextmanager
@@ -10,13 +9,10 @@ from typing import Self, Tuple
 
 import numpy as np
 import pysindy as ps
-import sklearn
-import yaml
 from jernerics.experiment import Experiment
-from jernerics.generate.generator import DataGenerator
 
 import weighting
-from models import WeightedLasso
+from models import DebiasedLasso
 from utils.ode import map_equation
 from utils.training.sliding_split import SlidingWindowSplit
 
@@ -41,7 +37,7 @@ def time_limit(seconds):
 
 
 @dataclass
-class WeightedLassoExperiment(Experiment):
+class DebiasedLassoExperiment(Experiment):
     random_state: int
     metrics: dict[str, float] = field(default_factory=dict)
 
@@ -92,10 +88,11 @@ class WeightedLassoExperiment(Experiment):
             try:
                 model = ps.SINDy(
                     feature_library=library,
-                    optimizer=WeightedLasso(
+                    optimizer=DebiasedLasso(
                         alpha=alpha,
                         weights=weights,
                         max_iter=100000,
+                        threshhold=config["debiased_threshhold"],
                     ),  # type: ignore
                     differentiation_method=ps.FiniteDifference(),
                 )
@@ -115,10 +112,11 @@ class WeightedLassoExperiment(Experiment):
 
         model = ps.SINDy(
             feature_library=library,
-            optimizer=WeightedLasso(
+            optimizer=DebiasedLasso(
                 alpha=alpha,
                 weights=weights,
                 max_iter=100000,
+                threshhold=config["debias_threshold"],
             ),  # type: ignore
             differentiation_method=ps.FiniteDifference(),
         )
@@ -161,4 +159,4 @@ class WeightedLassoExperiment(Experiment):
 
 
 def get_experiment(config: dict) -> Experiment:
-    return WeightedLassoExperiment(**config)
+    return DebiasedLassoExperiment(**config)

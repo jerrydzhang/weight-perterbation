@@ -1,6 +1,5 @@
 import csv
 import importlib
-import multiprocessing
 import pickle
 import signal
 from contextlib import contextmanager
@@ -10,15 +9,12 @@ from typing import Self, Tuple
 
 import numpy as np
 import pysindy as ps
-import sklearn
-import yaml
 from jernerics.experiment import Experiment
-from jernerics.generate.generator import DataGenerator
+from utils.training.sliding_split import SlidingWindowSplit
 
 import weighting
 from models import WeightedLasso
 from utils.ode import map_equation
-from utils.training.sliding_split import SlidingWindowSplit
 
 DATA_DIR = Path(__file__).parent / "data"
 
@@ -49,7 +45,7 @@ class WeightedLassoExperiment(Experiment):
         data_path = DATA_DIR / config["data_file"]
         with open(data_path, "r") as f:
             reader = csv.reader(f)
-            header = next(reader)
+            # header = next(reader)
             data = np.array([[float(value) for value in row] for row in reader])
 
         X = data[:, 1:]
@@ -99,7 +95,7 @@ class WeightedLassoExperiment(Experiment):
                     ),  # type: ignore
                     differentiation_method=ps.FiniteDifference(),
                 )
-                model.fit(X_train, t=t_train)
+                model.fit(X_train, t=t_train, x_dot=np.asarray(equation_func(t, X.T)).T)
             except Exception as e:
                 print(f"An error occurred during model fitting: {e}")
                 self.metrics = {f"nmse_{j}": float("inf") for j in range(X.shape[1])}
@@ -122,7 +118,7 @@ class WeightedLassoExperiment(Experiment):
             ),  # type: ignore
             differentiation_method=ps.FiniteDifference(),
         )
-        model.fit(X, t=t)
+        model.fit(X, t=t, x_dot=np.asarray(equation_func(t, X.T)).T)
 
         return model
 

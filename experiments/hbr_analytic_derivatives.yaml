@@ -1,4 +1,4 @@
-description: hbr equations with debiased model
+description: hbr equations with analytic derivatives
 experiments:
 - parameters:
     model_alpha: 0.14438960563581527
@@ -402,7 +402,7 @@ experiments:
     weight_std: 0.0022124257987270143
 name: hbr
 shared:
-  module: experiments.ode_debiased
+  module: experiments.ode_analytic_derivatives
   parameters:
     data_file: hydrogen_bromine_ode.csv
     equation: hydrogen_bromine

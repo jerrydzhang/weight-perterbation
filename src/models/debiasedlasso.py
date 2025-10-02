@@ -57,7 +57,7 @@ class DebiasedLasso(BaseEstimator, RegressorMixin):
             coef = np.zeros(X.shape[1])
             coef[sup] = self.support_model[i].coef_
             self.coef_ = np.vstack([self.coef_, coef]) if self.coef_.size else coef
-            print(f"Problem {i+1}/{len(support)} fitted.")
+            print(f"Problem {i + 1}/{len(support)} fitted.")
 
     def predict(self, X: np.ndarray) -> np.ndarray:
         if self.coef_.size == 0:

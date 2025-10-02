@@ -1,4 +1,4 @@
-description: Robertson's equations weigth debiased model
+description: Robertson's equations with analytic derivatives
 experiments:
 - parameters:
     model_alpha: 1.9457332931994216e-05
@@ -402,7 +402,7 @@ experiments:
     weight_std: 0.08001271386941167
 name: rober
 shared:
-  module: experiments.ode_debiased
+  module: experiments.ode_analytic_derivatives
   parameters:
     data_file: rober_ode.csv
     equation: rober

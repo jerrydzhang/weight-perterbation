@@ -21,6 +21,7 @@ dev = [
 	"jupyterlab",
 	"jupyterlab-lsp",
 	"jupyterlab-vim",
+	"pyright>=1.1.406",
 	"python-lsp-server[all]",
 	"notebook-intelligence",
 ]

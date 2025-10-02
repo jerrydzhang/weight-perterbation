@@ -1,7 +1,7 @@
 name: hbr
 description: hbr equations
 shared:
-  module: experiments.ode
+  module: experiments.ode_analytic_derivatives
   random_state: 42
   parameters:
     data_file: hydrogen_bromine_ode.csv
