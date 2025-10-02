@@ -36,6 +36,21 @@
 
             runScript = "zsh";
           }).env;
+
+        hpc = pkgs.mkShell {
+          packages = [
+            pkgs.python3
+            pkgs.uv
+            pkgs.ruff
+          ];
+
+          shellHook = ''
+            unset PYTHONPATH
+            uv sync --inexact
+            uv pip install -e . -e "jernerics @ ./../jernerics"
+            . .venv/bin/activate
+          '';
+        };
       }
     );
   };
