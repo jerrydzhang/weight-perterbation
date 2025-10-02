@@ -1,5 +1,5 @@
 description: hbr equations with debiased model
-name: hbr
+name: hbr_debias
 experiments:
   - parameters:
       model_alpha: 286.52162191429545

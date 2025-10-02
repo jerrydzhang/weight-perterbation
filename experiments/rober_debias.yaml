@@ -840,7 +840,7 @@ experiments:
       model_alpha: 0.00017666659752974762
       weight_eps: 4.968659015678425e-07
       weight_std: 0.1
-name: rober
+name: rober_debias
 shared:
   module: experiments.ode_debiased
   parameters:

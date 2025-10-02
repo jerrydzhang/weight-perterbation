@@ -1,4 +1,4 @@
-name: rober
+name: rober_analytic
 description: Robertson's equations
 shared:
   module: experiments.ode_analytic_derivatives

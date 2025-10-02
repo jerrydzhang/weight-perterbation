@@ -1,5 +1,5 @@
-name: hbr
-description: hbr equations
+name: hbr_analytic
+description: hbr equations with analytic derivatives
 shared:
   module: experiments.ode_analytic_derivatives
   random_state: 42
