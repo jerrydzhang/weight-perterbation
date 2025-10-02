@@ -130,7 +130,7 @@ class WeightedLassoExperiment(Experiment):
         self: Self, model: ps.SINDy, X: np.ndarray, y: np.ndarray
     ) -> dict:
         print("Computing metrics...")
-        timeout = 300
+        timeout = 60
         with time_limit(timeout):
             try:
                 trajectory = model.simulate(X[0], t=y)

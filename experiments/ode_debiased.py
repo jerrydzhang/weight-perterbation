@@ -92,7 +92,7 @@ class DebiasedLassoExperiment(Experiment):
                         alpha=alpha,
                         weights=weights,
                         max_iter=100000,
-                        threshhold=config["debiased_threshhold"],
+                        threshhold=float(config["debias_threshold"]),
                     ),  # type: ignore
                     differentiation_method=ps.FiniteDifference(),
                 )
@@ -116,7 +116,7 @@ class DebiasedLassoExperiment(Experiment):
                 alpha=alpha,
                 weights=weights,
                 max_iter=100000,
-                threshhold=config["debias_threshold"],
+                threshhold=float(config["debias_threshold"]),
             ),  # type: ignore
             differentiation_method=ps.FiniteDifference(),
         )
@@ -128,7 +128,7 @@ class DebiasedLassoExperiment(Experiment):
         self: Self, model: ps.SINDy, X: np.ndarray, y: np.ndarray
     ) -> dict:
         print("Computing metrics...")
-        timeout = 300
+        timeout = 60
         with time_limit(timeout):
             try:
                 trajectory = model.simulate(X[0], t=y)
