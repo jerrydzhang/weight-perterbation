@@ -12,10 +12,13 @@ dependencies = [
 	"plotly",
 	"cvxpy",
 	"pysindy",
+	"seaborn",
 ]
 
 [dependency-groups]
 dev = [
+	# "mypy>=1.18.2",
+	# "ruff>=0.13.3",
 	"pytest>=8.4.2",
 	"pytest-cov>=7.0.0",
 	"jupyterlab",
