@@ -45,8 +45,9 @@ class WeightedLasso(BaseEstimator, RegressorMixin):
         alpha_param = cp.Parameter(nonneg=True)
 
         error = (1 / (2 * n_samples)) * cp.sum_squares(x_normed @ coef - y)
-        weighted_l1 = cp.norm1(cp.multiply(weights_param, coef))
-        obj = cp.Minimize(error + alpha_param * weighted_l1)
+        weighted_l1 = cp.norm1(cp.multiply(weights_param, coef), axis=0)
+        # print(f"Weighted L1 shape: {weighted_l1.shape}")
+        obj = cp.Minimize(cp.norm1(error + alpha_param * weighted_l1))
         prob = cp.Problem(obj)
 
         weights_param.value = self.weights

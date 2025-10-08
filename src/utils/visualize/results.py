@@ -440,3 +440,68 @@ class ODEResultVisualizer(ODEVisualizer):
             print(f"Heatmap saved to {fig_path}")
 
         plt.show()
+
+    def plot_best_model_across_param(
+        self: Self,
+        param: str,
+        metric: str,
+        minimize: bool = True,
+        fixed_params: dict | None = None,
+        save: bool = False,
+    ) -> None:
+        if param not in self.results_df.columns:
+            raise ValueError(f"Parameter {param} not found in results.")
+        if metric not in self.results_df.columns:
+            raise ValueError(f"Metric {metric} not found in results.")
+
+        df = self.results_df.copy()
+        if fixed_params:
+            for p, value in fixed_params.items():
+                if p in df.columns:
+                    df = df[df[p] == value]
+
+                    if df.empty:
+                        raise ValueError(
+                            f"No models found with {p} = {value} in results."
+                        )
+                    elif not isinstance(df, pd.DataFrame):
+                        raise ValueError(
+                            f"Filtering by {p} = {value} did not return a DataFrame."
+                        )
+                else:
+                    raise ValueError(f"Parameter {p} not found in results.")
+        if df.empty:
+            raise ValueError("No models available to evaluate.")
+
+        best_models = []
+        for value in df[param].unique():
+            sub_df = df[df[param] == value]
+            if minimize:
+                best_model_row = sub_df.loc[sub_df[metric].idxmin(skipna=True)]
+            else:
+                best_model_row = sub_df.loc[sub_df[metric].idxmax(skipna=True)]
+
+            best_models.append(best_model_row)
+
+        best_models_df = pd.DataFrame(best_models)
+        best_models_df.sort_values(by=param, inplace=True)
+        best_models_df.dropna(subset=[metric], inplace=True)
+
+        plt.figure(figsize=(10, 6))
+        plt.scatter(
+            best_models_df[param],
+            best_models_df[metric],
+            s=100,
+        )
+        plt.xlabel(param)
+        plt.ylabel(metric)
+        plt.title(f"Best {metric} across different {param} values")
+        plt.xscale("log")
+        plt.grid()
+
+        if save:
+            fig_path = f"best_model_{metric}_across_{param}.png"
+            plt.savefig(fig_path)
+            print(f"Plot saved to {fig_path}")
+
+        plt.show()
