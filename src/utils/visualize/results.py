@@ -172,7 +172,11 @@ class ODEResultVisualizer(ODEVisualizer):
         with open(model_file, "rb") as f:
             model = pkl.load(f)
 
-        solution_sim = model.simulate(self.x0, self.t).T
+        solution_sim = model.simulate(
+            self.x0,
+            self.t,
+            # integrator_kws={"atol": 1e-3, "method": "Radau", "rtol": 1e-3},
+        ).T
 
         num_vars = solution_sim.shape[0]
         # Temporary code to save each subplot separately

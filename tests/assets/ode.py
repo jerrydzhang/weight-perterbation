@@ -11,3 +11,4 @@ def hydrogen_bromine(t, x, k=[6.26e5, 1.56e15, 2.61e9, 1.39e13, 1.17e14, 1.31e4]
 
 
 hydrogen_bromine_init = [1.0e-8, 0, 1.0e-8, 0, 0, 1.0e-5]
+hydrogen_bromine_init_past_stiff = [1.28765293e-09, 7.25644133e-10, 1.65047091e-09, 8.16685447e-15, 1.66990500e-08, 1.00000000e-05]
